@@ -20,9 +20,9 @@ jobs:
       - run:
           name: Push Docker image to DockerHub
           command: |
-            docker login -u charteredcertifications -p dckr_pat_RBlX9prKRjcuPlowNglRw8FezEQ
-            docker tag my-app charteredcertifications/my-app
-            docker push charteredcertifications/my-app
+            docker login -u murarilb -p dckr_pat_6iqB-bvVGhdKcwbTQ0UCmg-Sg7c
+            docker tag my-app murarilb/my-app
+            docker push murarilb/my-app
 
 workflows:
   version: 2
